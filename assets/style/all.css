@@ -9222,6 +9222,18 @@ fieldset:disabled .btn {
   border-radius: 0.3rem !important;
 }
 
+.rounded-4 {
+  border-radius: 0.5rem !important;
+}
+
+.rounded-5 {
+  border-radius: 0.75rem !important;
+}
+
+.rounded-6 {
+  border-radius: 1.5rem !important;
+}
+
 .rounded-circle {
   border-radius: 50% !important;
 }
@@ -9256,30 +9268,6 @@ fieldset:disabled .btn {
 
 .invisible {
   visibility: hidden !important;
-}
-
-.o-0 {
-  opacity: 0 !important;
-}
-
-.o-25 {
-  opacity: 0.25 !important;
-}
-
-.o-50 {
-  opacity: 0.5 !important;
-}
-
-.o-75 {
-  opacity: 0.75 !important;
-}
-
-.o-90 {
-  opacity: 0.9 !important;
-}
-
-.o-100 {
-  opacity: 1 !important;
 }
 
 @media (min-width: 576px) {
@@ -13558,6 +13546,8 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .navbar-expand-lg {
