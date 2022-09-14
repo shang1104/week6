@@ -61,6 +61,10 @@
 .scroll {
   overflow-x: scroll;
 }
+.study-item:hover {
+  background-color: $light;
+  color: $dark !important;
+}
 
 .course-1,
 .course-2,
